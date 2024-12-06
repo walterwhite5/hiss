@@ -31,7 +31,6 @@ class Elevator {
       await this.moveToFloor(1);
       await this.wait(10);
       await this.userEntry();
-      await this.selectFloor();
     }
   }
 
