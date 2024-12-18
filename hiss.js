@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')({ sigint: true });
 
 class Elevator {
   constructor() {
-    this.currentFloor = 3;
+    this.currentFloor = 4;
   }
 
   async moveToFloor(floor) {
@@ -49,8 +49,8 @@ class Elevator {
   }
 
   async selectFloor() {
-    const floor = prompt("Välj våning: 1, 2 eller 3: ");
-    if ([1, 2, 3].includes(Number(floor))) {
+    const floor = prompt("Välj våning: 1, 2, 3 eller 4: ");
+    if ([1, 2, 3, 4].includes(Number(floor))) {
       await this.moveToFloor(Number(floor));
       await this.userExit();
       const returnToElevator = prompt("Vill du gå tillbaka till hissen? (ja/nej): ");
