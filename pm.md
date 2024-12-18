@@ -1,5 +1,5 @@
 Hiss.js
-Vincent Nilsson, __/12
+Vincent Nilsson, 18/12
 
 Inledning
 Sedan oktober så har vi jobbat med att skapa en digital hiss som en del av kursen "tillämpad programmering". Jag valde att göra ett program skrivet på JavaScript. Efter att jag själv skrivit pseudokoden bad jag en AI göra det till riktig kod och sedan testade jag den för att se att den fungerade. Efter det så försökte jag förstå koden så att jag kunde förklara den i dokumentet. Jag skrev loggar under varje lektion om vad jag gjorde.
